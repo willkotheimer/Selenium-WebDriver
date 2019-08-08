@@ -22,6 +22,7 @@ public class FirstJavaClass {
 		driver.navigate().back();
 		driver.navigate().forward();
 		driver.navigate().refresh();
+		driver.navigate().getClass();
 		
 		//Element Handling
 		driver.findElement(By.id(id)).click();
