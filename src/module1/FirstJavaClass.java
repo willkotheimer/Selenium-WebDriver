@@ -11,6 +11,7 @@ public class FirstJavaClass {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\Selenium 3.4\\chromedriver_win32.chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
+		
 		//Get commands:
 		driver.get("/");
 		driver.getCurrentUrl();
